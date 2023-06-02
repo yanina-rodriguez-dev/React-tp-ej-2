@@ -1,9 +1,8 @@
 
-
-const Titulos = () => {
+const Titulos = ({nombre}) => {
     return (
         <section className="container">
-            <h1 className="mt-5">¡Hello world</h1>
+            <h1 className="mt-5">Hello {nombre}</h1>
         </section>
     );
 };

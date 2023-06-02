@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <Titulos></Titulos>
+     <Titulos nombre="My friend"></Titulos>
     </>
   )
 }
